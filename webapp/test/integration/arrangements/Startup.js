@@ -14,7 +14,7 @@ sap.ui.define([
 			// start the app UI component
 			this.iStartMyUIComponent({
 				componentConfig: {
-					name: "mentororia.fiori.ka.zkaui5242bf",
+					name: "mentoria.fiori.ka.zkaui5242bf",
 					async: true
 				},
 				hash: oOptions.hash,

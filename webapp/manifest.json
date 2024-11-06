@@ -1,7 +1,7 @@
 {
   "_version": "1.65.0",
   "sap.app": {
-    "id": "mentororia.fiori.ka.zkaui5242bf",
+    "id": "mentoria.fiori.ka.zkaui5242bf",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -49,7 +49,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "mentororia.fiori.ka.zkaui5242bf.i18n.i18n"
+          "bundleName": "mentoria.fiori.ka.zkaui5242bf.i18n.i18n"
         }
       }
     },
@@ -65,7 +65,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "mentororia.fiori.ka.zkaui5242bf.view",
+        "viewPath": "mentoria.fiori.ka.zkaui5242bf.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false
@@ -90,7 +90,7 @@
       }
     },
     "rootView": {
-      "viewName": "mentororia.fiori.ka.zkaui5242bf.view.App",
+      "viewName": "mentoria.fiori.ka.zkaui5242bf.view.App",
       "type": "XML",
       "async": true,
       "id": "App"

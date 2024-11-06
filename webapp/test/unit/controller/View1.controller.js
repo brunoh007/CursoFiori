@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"mentororiafiorika/zkaui5242bf/controller/View1.controller"
+	"mentoriafiorika/zkaui5242bf/controller/View1.controller"
 ], function (Controller) {
 	"use strict";
 

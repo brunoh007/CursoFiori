@@ -16,7 +16,7 @@
       ],
       "args": [
         "--open",
-        "test/flpSandbox.html#mentororiafiorikazkaui5242bf-display"
+        "test/flpSandbox.html#mentoriafiorikazkaui5242bf-display"
       ],
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart",
@@ -44,7 +44,7 @@
         "--config",
         "./ui5-local.yaml",
         "--open",
-        "test/flpSandbox.html#mentororiafiorikazkaui5242bf-display"
+        "test/flpSandbox.html#mentoriafiorikazkaui5242bf-display"
       ],
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart",

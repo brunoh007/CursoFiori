@@ -5,7 +5,7 @@ sap.ui.define(
     function(BaseController) {
       "use strict";
   
-      return BaseController.extend("mentororia.fiori.ka.zkaui5242bf.controller.App", {
+      return BaseController.extend("mentoria.fiori.ka.zkaui5242bf.controller.App", {
         onInit: function() {
         }
       });

@@ -5,12 +5,12 @@
 sap.ui.define([
         "sap/ui/core/UIComponent",
         "sap/ui/Device",
-        "mentororia/fiori/ka/zkaui5242bf/model/models"
+        "mentoria/fiori/ka/zkaui5242bf/model/models"
     ],
     function (UIComponent, Device, models) {
         "use strict";
 
-        return UIComponent.extend("mentororia.fiori.ka.zkaui5242bf.Component", {
+        return UIComponent.extend("mentoria.fiori.ka.zkaui5242bf.Component", {
             metadata: {
                 manifest: "json"
             },

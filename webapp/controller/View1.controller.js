@@ -6,7 +6,7 @@ sap.ui.define([
 function (Controller, JSONModel, Fragment) {
     "use strict";
 
-    return Controller.extend("mentororia.fiori.ka.zkaui5242bf.controller.View1", {
+    return Controller.extend("mentoria.fiori.ka.zkaui5242bf.controller.View1", {
         onInit: function () {
 
             var oModelJson = new JSONModel({
@@ -35,7 +35,7 @@ function (Controller, JSONModel, Fragment) {
             if (!oDialogKids) {
                 Fragment.load({
                     id: oView.getId(),
-                    name: "mentororia.fiori.ka.zkaui5242bf.view.DialogKids",
+                    name: "mentoria.fiori.ka.zkaui5242bf.view.DialogKids",
                     type: "XML",
                     controller: this
                 }).then(function (oDialog) {

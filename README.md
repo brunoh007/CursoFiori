@@ -10,7 +10,7 @@
 |**Service URL**<br>N/A|
 |**Module Name**<br>zkaui5242bf|
 |**Application Title**<br>Primeiro App|
-|**Namespace**<br>mentororia.fiori.ka|
+|**Namespace**<br>mentoria.fiori.ka|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.130.0|
 |**Enable Code Assist Libraries**<br>False|

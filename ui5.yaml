@@ -2,7 +2,7 @@
 
 specVersion: "3.1"
 metadata:
-  name: mentororia.fiori.ka.zkaui5242bf
+  name: mentoria.fiori.ka.zkaui5242bf
 type: application
 server:
   customMiddleware:
@@ -24,5 +24,5 @@ server:
     - name: fiori-tools-preview
       afterMiddleware: fiori-tools-appreload
       configuration:
-        component: mentororia.fiori.ka.zkaui5242bf
+        component: mentoria.fiori.ka.zkaui5242bf
         ui5Theme: sap_horizon

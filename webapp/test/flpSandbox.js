@@ -40,7 +40,7 @@ sap.ui.define([
 								"tileType": "sap.ushell.ui.tile.StaticTile",
 								"properties": {
 									"title": "Primeiro App",
-									"targetURL": "#mentororiafiorikazkaui5242bf-display"
+									"targetURL": "#mentoriafiorikazkaui5242bf-display"
 								}
 							}]
 						}]
@@ -51,8 +51,8 @@ sap.ui.define([
 				"adapter": {
 					"config": {
 						"inbounds": {
-							"mentororiafiorikazkaui5242bf-display": {
-								"semanticObject": "mentororiafiorikazkaui5242bf",
+							"mentoriafiorikazkaui5242bf-display": {
+								"semanticObject": "mentoriafiorikazkaui5242bf",
 								"action": "display",
 								"description": "An SAP Fiori application.",
 								"title": "Primeiro App",
@@ -61,8 +61,8 @@ sap.ui.define([
 								},
 								"resolutionResult": {
 									"applicationType": "SAPUI5",
-									"additionalInformation": "SAPUI5.Component=mentororia.fiori.ka.zkaui5242bf",
-									"url": sap.ui.require.toUrl("mentororia/fiori/ka/zkaui5242bf")
+									"additionalInformation": "SAPUI5.Component=mentoria.fiori.ka.zkaui5242bf",
+									"url": sap.ui.require.toUrl("mentoria/fiori/ka/zkaui5242bf")
 								}
 							}
 						}

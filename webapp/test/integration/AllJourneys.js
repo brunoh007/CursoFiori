@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "mentororia.fiori.ka.zkaui5242bf.view.",
+		viewNamespace: "mentoria.fiori.ka.zkaui5242bf.view.",
 		autoWait: true
 	});
 });
