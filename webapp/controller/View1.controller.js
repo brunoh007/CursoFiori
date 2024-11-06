@@ -13,8 +13,20 @@ function (Controller, JSONModel, Fragment) {
                 name: 'João',
                 showSecondName: true
             })
-            this.getView().setModel(oModelJson);
+            // oModelJson.setDefaultBindingMode(BindingMode)
+            this.getView().setModel(oModelJson, "model1");
             
+            var oModelJson2 = new JSONModel({
+                name: 'Pedro',
+                showSecondName: true
+            })
+            this.getView().setModel(oModelJson2, "model2");
+
+
+            var oModelJson3 = new JSONModel();
+            oModelJson3.loadData("model/Products.json")
+            this.getView().setModel(oModelJson3, "model3");            
+
 
         },
         onOpenDialog: function () {
