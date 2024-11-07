@@ -1,34 +1,45 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/ui/model/json/JSONModel",
-    "sap/ui/core/Fragment"
+    "sap/ui/core/Fragment",
+    "sap/ui/model/BindingMode"
 ],
-function (Controller, JSONModel, Fragment) {
+function (Controller, JSONModel, Fragment, BindingMode) {
     "use strict";
 
     return Controller.extend("mentoria.fiori.ka.zkaui5242bf.controller.View1", {
         onInit: function () {
-
-            var oModelJson = new JSONModel({
+            var oModelJson = new JSONModel({ 
                 name: 'João',
                 showSecondName: true
             })
-            // oModelJson.setDefaultBindingMode(BindingMode)
-            this.getView().setModel(oModelJson, "model1");
-            
-            var oModelJson2 = new JSONModel({
-                name: 'Pedro',
-                showSecondName: true
-            })
-            this.getView().setModel(oModelJson2, "model2");
 
+            this.getView().setModel(oModelJson, "model1");
+
+            var oModelJson2 = new JSONModel({ 
+                name: 'Pedro'
+            })
+
+            this.getView().setModel(oModelJson2, "model2");
 
             var oModelJson3 = new JSONModel();
             oModelJson3.loadData("model/Products.json")
-            this.getView().setModel(oModelJson3, "model3");            
-
+            this.getView().setModel(oModelJson3, "model3");
+            
+            var oModelJson4 = new JSONModel();
+            oModelJson4.loadData("model/Employees.json")
+            this.getView().setModel(oModelJson4, "model4");
 
         },
+
+        onDataComboBoxChange: function (oEvent) {
+            var oItem = oEvent.getParameter("selectedItem")
+            var sPath = oItem.getBindingContext("model4").getPath();
+
+            var oList = this.byId("listEmployees");
+            oList.bindElement({path: sPath, model: "model4"});
+        },
+        
         onOpenDialog: function () {
             var oView = this.getView(),
                 oDialogKids = this.getView().byId("dialogKids");
