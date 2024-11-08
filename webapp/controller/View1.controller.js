@@ -23,11 +23,11 @@ function (Controller, JSONModel, Fragment, BindingMode) {
             this.getView().setModel(oModelJson2, "model2");
 
             var oModelJson3 = new JSONModel();
-            oModelJson3.loadData("model/Products.json")
+            oModelJson3.loadData("/model/Products.json")
             this.getView().setModel(oModelJson3, "model3");
             
             var oModelJson4 = new JSONModel();
-            oModelJson4.loadData("model/Employees.json")
+            oModelJson4.loadData("/model/Employees.json")
             this.getView().setModel(oModelJson4, "model4");
 
         },
