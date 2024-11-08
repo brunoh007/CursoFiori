@@ -30,7 +30,20 @@ function (Controller, JSONModel, Fragment, BindingMode) {
             oModelJson4.loadData("/model/Employees.json")
             this.getView().setModel(oModelJson4, "model4");
 
+            var oBubdle = this.getOwnerComponent().getModel("i18n").getResourceBundle(),
+            msg = oBubdle.getText("msgInit", ["com", "sucesso"]);
+
+            MessageToast.show(msg);            
+
         },
+
+        formatAlertStock: function (units) {
+            if (units > 0) {
+                return ""
+            } else {
+                return "Disponível em breve";
+            }
+        },        
 
         onDataComboBoxChange: function (oEvent) {
             var oItem = oEvent.getParameter("selectedItem")
